@@ -1,5 +1,11 @@
 # nexera-pay
 
+[![PyPI version](https://img.shields.io/pypi/v/nexera-pay?style=flat-square&color=a78bfa&logo=pypi&logoColor=white)](https://pypi.org/project/nexera-pay/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/nexera-pay?style=flat-square&color=67e8f9)](https://pypi.org/project/nexera-pay/)
+[![Python versions](https://img.shields.io/pypi/pyversions/nexera-pay?style=flat-square)](https://pypi.org/project/nexera-pay/)
+[![license](https://img.shields.io/pypi/l/nexera-pay?style=flat-square)](./LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/Nexera-Africa-DRC/nexera-pay-python/publish.yml?style=flat-square&label=publish)](https://github.com/Nexera-Africa-DRC/nexera-pay-python/actions)
+
 SDK Python officiel pour **Nexera Pay** — API paiement Payment Facilitator RDC (Mobile Money + Carte, wrapper Moko/PayDRC/Cybersource).
 
 ## Installation

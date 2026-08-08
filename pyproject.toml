@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexera-pay"
+version = "0.1.0"
+description = "Nexera Pay — API paiement RDC (Mobile Money + Carte). SDK Python officiel."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Nexera Africa", email = "dev@nexera.africa"}]
+keywords = ["nexera", "payment", "mobile-money", "mpesa", "airtel", "orange", "rdc", "congo", "fintech-africa"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["httpx>=0.25"]
+
+[project.urls]
+Homepage = "https://pay.nexera.africa"
+Documentation = "https://docs.nexera.africa/pay"
+Repository = "https://github.com/nexera-africa/nexera-pay-python"
+
+[tool.setuptools.packages.find]
+include = ["nexera_pay*"]
